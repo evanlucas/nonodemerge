@@ -1,0 +1,32 @@
+{
+  "name": "nonodemerge",
+  "version": "1.0.0",
+  "description": "Chrome extension for hiding the merge button on pull requests",
+  "main": "content.js",
+  "scripts": {
+    "build": "browserify content.js > content_dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evanlucas/nonodemerge.git"
+  },
+  "keywords": [
+    "github",
+    "node",
+    "merge",
+    "pr",
+    "button"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/nonodemerge/issues"
+  },
+  "homepage": "https://github.com/evanlucas/nonodemerge#readme",
+  "dependencies": {
+    "github-injection": "~0.1.0"
+  },
+  "devDependencies": {
+    "browserify": "~11.2.0"
+  }
+}

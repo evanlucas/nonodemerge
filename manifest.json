@@ -1,0 +1,14 @@
+{
+  "name": "nonodemerge",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/nodejs/node/pull/*"
+      ],
+      "js": ["content_dist.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
