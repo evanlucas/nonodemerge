@@ -1,6 +1,8 @@
 # nonodemerge
 
-Remove the merge button for node core repo
+Remove the merge button for node core repo.
+
+This extension also colors commit titles red if they are > 50 columns.
 
 ## Install
 
